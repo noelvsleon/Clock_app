@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-08-18T15:17:53.072Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="N-d1DST3tB0cHvoxUsbW" version="13.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-18T20:15:33.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="CYaUZlFBX9jbdy6tpJBd" version="13.6.3" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="start" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="60" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Form - startup.vb" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+        <mxCell id="3" value="&lt;b&gt;Form - startup.vb&lt;/b&gt;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="240.5" y="130" width="159" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="2" target="3" edge="1">
@@ -17,21 +17,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="250" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="32" value="terminate&#xa;contract&#xa;" style="shape=mxgraph.flowchart.merge_or_storage;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="760" y="1300" width="130" height="80.5" as="geometry" />
-        </mxCell>
-        <mxCell id="33" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" target="32" edge="1">
-          <mxGeometry width="100" height="100" as="geometry">
-            <mxPoint x="640" y="1260" as="sourcePoint" />
-            <mxPoint x="100" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="740" y="1260" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="39" value="issue&#xa;bill of works" style="shape=mxgraph.flowchart.predefined_process;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="1725" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="45" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0.905;entryY=0.5;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" target="34" edge="1">
           <mxGeometry width="100" height="100" as="geometry">
@@ -53,6 +38,54 @@
         </mxCell>
         <mxCell id="5CW9GBjwH4_lCEYlVOhL-57" value="Continue button -&amp;nbsp; load frmMain" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="370" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5CW9GBjwH4_lCEYlVOhL-58" value="" style="endArrow=classic;html=1;exitX=0.905;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3" target="5CW9GBjwH4_lCEYlVOhL-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="240" as="sourcePoint" />
+            <mxPoint x="480" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CW9GBjwH4_lCEYlVOhL-59" value="load form - system initialize, i.e.&amp;nbsp;&lt;span&gt;function creates all of the classes needed to run&lt;/span&gt;&lt;div&gt;&#39; with the system.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="140" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5CW9GBjwH4_lCEYlVOhL-61" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5CW9GBjwH4_lCEYlVOhL-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="180" as="sourcePoint" />
+            <mxPoint x="790" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CW9GBjwH4_lCEYlVOhL-62" value="SystemInitialize fn located at BasSystem module" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="140" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5CW9GBjwH4_lCEYlVOhL-63" value="" style="endArrow=classic;html=1;exitX=0.813;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5CW9GBjwH4_lCEYlVOhL-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="100" as="sourcePoint" />
+            <mxPoint x="957" y="139" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="957" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CW9GBjwH4_lCEYlVOhL-64" value="&lt;b&gt;clsGPIB&lt;/b&gt; class file.(first object created in System initialize fn)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="835" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5CW9GBjwH4_lCEYlVOhL-65" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="5CW9GBjwH4_lCEYlVOhL-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="70" as="sourcePoint" />
+            <mxPoint x="610" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5CW9GBjwH4_lCEYlVOhL-66" value="&lt;b&gt;VBIB32.vb module c&lt;/b&gt;&lt;span&gt;ontains the subroutine declarations,&lt;/span&gt;&lt;div&gt;&#39;&amp;nbsp; &amp;nbsp;function declarations and constants required to use&lt;/div&gt;&lt;div&gt;&#39;&amp;nbsp; &amp;nbsp;the National Instruments GPIB Dynamic Link Library&lt;/div&gt;&lt;div&gt;&#39;&amp;nbsp; &amp;nbsp;(DLL) for controlling IEEE-488&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="40" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5CW9GBjwH4_lCEYlVOhL-67" value="&lt;b&gt;NIGLOBAL.vb&amp;nbsp;&lt;/b&gt;&amp;nbsp;module&amp;nbsp;&lt;span&gt;contains the variable&amp;nbsp; declarations,&lt;/span&gt;&lt;div&gt;&#39;&amp;nbsp; &amp;nbsp;constant definitions, and type information that&lt;/div&gt;&lt;div&gt;&#39;&amp;nbsp; &amp;nbsp;is recognized by the entire application. ( mainly GPIB pinout status, msgs,&amp;nbsp; const value etc)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="140" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5CW9GBjwH4_lCEYlVOhL-69" value="&lt;b&gt;basDeclare.vb&amp;nbsp;&lt;/b&gt;&amp;nbsp;module&amp;nbsp;&lt;span&gt;contains the program constants, class constants, error constants, system hardware unit constants, system variables, h/w components,&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="240" width="400" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
